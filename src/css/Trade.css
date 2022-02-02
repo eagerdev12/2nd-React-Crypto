@@ -1,0 +1,52 @@
+.tradeContainer {
+    border: 1px solid teal;
+    margin: 5% 30%;
+    padding: 5%;
+    box-shadow: 2px 2px 8px  teal;
+    background-color: lightgray;
+}
+
+.cryptoStyle {
+    display: flex;
+}
+
+.crypAmt, .fiatAmt {
+    width: 100%;
+}
+
+.tradeTxt2,
+.tradeTxt1 {
+    height: 50px;
+}
+
+.cryptoSelectDiv,
+.fiatSelectDiv {
+    margin-left: 20%;
+    margin-top: 22px;
+    position: absolute;
+}
+
+.fiatStyle {
+    display: flex;
+    margin-top: 2%;
+}
+
+.cryptoSelect,
+.fiatSelect {
+    padding: 2px;
+    border: none;
+    color: teal;
+}
+
+.swapAmtBtn {
+    margin: 7% 35%;
+    background-color: teal;
+    font-size: 14px;
+    color: white;
+    border-radius: 4px;
+    padding: 12px 25px;
+    transition-duration: 0.4s;
+    border: none;
+    box-shadow: 0 2px 4px 0 teal;
+    width: 35%;
+}
